@@ -6,8 +6,10 @@ coverage/
 # dependencies
 node_modules/
 bower_components/
+
+#examples
 examples/bower_components/
-examples/**/jsonforms-material
+examples/**/jsonforms-material.*
 
 
 # all js files in components
