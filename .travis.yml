@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "0.12"
+  - "4.2.3"
 
 install:
   - npm install
@@ -13,7 +13,5 @@ before_script:
 
 script:
   - grunt
-  # removed as we don't have tests yet and karma fails without tests, bug is fixed with v1.0
-  #- grunt test
-  - grunt remapIstanbul
+  - grunt test
   - grunt coveralls:karma_tests
