@@ -18,7 +18,7 @@ JSONForms uses [Grunt](http://gruntjs.com/) to build and test.
 # Continuous Integration
 The JSONForms project is build and tested via [Travis](https://travis-ci.org/). Coverage is documented by [Coveralls](https://coveralls.io).
 
-Current status: [![Build Status](https://travis-ci.org/eneufeld/jsonforms-material.svg?branch=master)](https://travis-ci.org/eneufeld/jsonforms-material) [![Coverage Status](https://coveralls.io/repos/eneufeld/jsonforms-material/badge.svg?branch=master&service=github)](https://coveralls.io/github/eneufeld/jsonforms-material?branch=master)
+Current status: [![Build Status](https://travis-ci.org/eneufeld/jsonforms-material.svg?branch=master)](https://travis-ci.org/eneufeld/jsonforms-material) [![Coverage Status](https://coveralls.io/repos/github/eneufeld/jsonforms-material/badge.svg?branch=master)](https://coveralls.io/github/eneufeld/jsonforms-material?branch=master)
 
 # Deployment
 
