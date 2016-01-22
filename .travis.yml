@@ -15,5 +15,5 @@ script:
   - grunt
   # removed as we don't have tests yet and karma fails without tests, bug is fixed with v1.0
   #- grunt test
-  - grunt remapIstandbul
+  - grunt remapIstanbul
   - grunt coveralls:karma_tests
