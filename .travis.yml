@@ -13,5 +13,6 @@ before_script:
 
 script:
   - grunt
-  - grunt test
-  - grunt coveralls:karma_tests
+  # removed as we don't have tests yet and karma fails without tests, bug is fixed with v1.0
+  #- grunt test
+  #- grunt coveralls:karma_tests
