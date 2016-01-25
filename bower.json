@@ -1,7 +1,7 @@
 {
   "name": "jsonforms-material",
   "description": "Material-Design renderer set for JSONForms",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "homepage": "https://github.com/eclipsesource/jsonforms-material",
   "license": "MIT",
   "main": [
