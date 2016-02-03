@@ -4,7 +4,7 @@ class MaterialBooleanRenderer implements JSONForms.IRenderer {
 
     priority = 10;
 
-    render(element: IUISchemaElement, subSchema: SchemaElement, schemaPath: string, services: JSONForms.Services) {
+    render(element: IControlObject , subSchema: SchemaElement, schemaPath: string, services: JSONForms.Services) {
         var control = JSONForms.RenderDescriptionFactory.createControlDescription(schemaPath,  services, element);
         var label = element.label ? element.label : "";
         control['template'] =

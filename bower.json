@@ -22,7 +22,7 @@
     "angular-ui": "0.4.0",
     "angular-ui-grid": "3.0.7",
     "angular-ui-validate": "1.2.2",
-    "angular-material":"v1.0.2",
+    "angular-material":"~1.0.2",
     "bootstrap": "3.3.6",
     "json-refs": "~0.2.0",
     "tv4": "1.2.3"

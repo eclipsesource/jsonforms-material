@@ -6,7 +6,7 @@ class MaterialStringRenderer implements JSONForms.IRenderer {
 
     static inject = ['RenderDescriptionFactory'];
 
-    render(element: IUISchemaElement, subSchema: SchemaElement, schemaPath: string, services: JSONForms.Services): JSONForms.IRenderDescription {
+    render(element: IControlObject, subSchema: SchemaElement, schemaPath: string, services: JSONForms.Services): JSONForms.IRenderDescription {
         var control = JSONForms.RenderDescriptionFactory.createControlDescription(schemaPath, services, element);
         control['template'] = `<jsonforms-material-control><input type="text" id="${schemaPath}" aria-label="{{element.label}}" data-jsonforms-model data-jsonforms-validation/></jsonforms-material-control>`;
         return control;
